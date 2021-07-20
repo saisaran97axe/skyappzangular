@@ -1,0 +1,271 @@
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25% !important;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+}
+
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {
+    /* Header */
+    .masthead-inner {
+        width: 100% !important;
+    }
+    /* Header */
+}
+
+@media only screen and (max-width: 991px) {
+    /* Header */
+    .masthead-inner {
+        width: 100% !important;
+    }
+    /* Header */
+}
+
+@media only screen and (max-width: 992px) {
+    /* Header */
+    .masthead-inner {
+        width: 100% !important;
+    }
+    .header-bottom .country-list li {
+        margin-left: 80px !important;
+    }
+    .cyclebanner.cycle-slideshow .home-slider img {
+        width: 80%;
+        margin-top: 150px !important;
+    }
+    .whats-app ul {
+        margin-top: 75% !important;
+    }
+    /* Header */
+}
+
+@media only screen and (max-width: 767px) {
+    /* Header */
+    .masthead.main-masthead {
+        width: 100%!important;
+        z-index: 0;
+        position: static;
+        background: #ff7201;
+        transform: rotate(0deg) !important;
+        overflow: hidden;
+    }
+    .masthead {
+        width: 100%!important;
+        transform: rotate(0deg) !important;
+    }
+    .masthead-inner {
+        margin-top: -15px !important;
+        /* margin-top: 0px; */
+        padding-bottom: 58px !important;
+    }
+    .responsive-none {
+        display: none;
+    }
+    .navbar .nav>li>a>span {
+        margin-left: 10px !important;
+        padding-left: 0% !important;
+    }
+    .country-list li a {
+        font-size: 10px !important;
+        padding: 0px !important;
+    }
+    .country-list li a img {
+        width: 29px !important;
+    }
+    .masthead-inner {
+        width: 100% !important;
+    }
+    /* Header */
+    /* E-commerce view starts */
+    .ard {
+        margin-bottom: 10px !important;
+    }
+    .choose-c {
+        margin-bottom: 15px !important;
+    }
+    /* E-commerce view ends */
+    .masthead .cyclebanner {
+        transform: rotate(360deg) !important;
+    }
+    .masthead.main-masthead {
+        transform: rotate(360deg) !important;
+        width: 100%;
+    }
+    .banner_bottom {
+        transform: rotate(360deg) !important;
+    }
+    header .logo img {
+        margin-top: 10px !important;
+        margin-left: -30px !important;
+    }
+    .navbar .nav>li>a {
+        border-radius: 0 !important;
+    }
+    .floating-form-wrap {
+        display: none !important;
+    }
+    /*Clients Starts*/
+    .test_details {
+        margin-bottom: 0 !important;
+    }
+    .testimonials {
+        margin-bottom: 0 !important;
+    }
+    /*Clients Ends*/
+    /*Android Starts*/
+    .coe_message img {
+        margin: 25px 0;
+    }
+    .android-app img {
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
+    .call-us-bg {
+        margin-top: 25px !important;
+    }
+    .android_last_img {
+        margin-bottom: 125px !important;
+    }
+    .android_success_img {
+        margin-top: 50px !important;
+    }
+    /*Android Ends*/
+    /*IOS Start*/
+    .android-app_IOS img {
+        margin-bottom: 0 !important;
+        margin-top: -200px;
+    }
+    .IOS_content {
+        margin-top: 30px !important;
+    }
+    .IOS_last_img {
+        margin-bottom: 125px !important;
+    }
+    .flutter_last_img {
+        margin-bottom: 125px;
+    }
+    .app_sup_last_row {
+        margin-bottom: 100px;
+    }
+    .animated {
+        margin-top: 80px !important;
+    }
+    .heading-quaternary {
+        margin-top: 50px;
+    }
+    .nodejs_last_img {
+        margin-bottom: 100px;
+        margin-top: 0 !important;
+    }
+    .react_last_sec {
+        margin-bottom: 100px;
+    }
+    .frontend_last_sec {
+        margin-bottom: 100px;
+    }
+    .backend_last_sec {
+        margin-bottom: 100px;
+    }
+    .IT_consulting_last_sec {
+        margin-bottom: 125px;
+    }
+    .dig_mark_last_img {
+        margin-bottom: 120px;
+        margin-top: 25px !important;
+    }
+    .design_sec {
+        margin-bottom: 100px;
+    }
+    .ecommerce_last_sec {
+        margin-bottom: 100px !important;
+    }
+    .career_last_sec {
+        margin-bottom: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    header .logo img {
+        width: 120px;
+        min-height: 0px;
+        margin-top: 10px;
+        margin-left: -20px;
+    }
+    .banner_bottom {
+        transform: rotate(360deg) !important;
+    }
+    /* Header */
+    .masthead-inner {
+        width: 100% !important;
+    }
+    .header-bottom .country-list li {
+        margin: 0 !important;
+    }
+    /* Header */
+    /* HomePage view starts */
+    .award_menu {
+        font-size: smaller;
+    }
+    .award_menu img {
+        width: 20%;
+    }
+    /* HomePage view ends */
+    /* Career view starts */
+    .c-icon-block img {
+        padding: 10px;
+        height: 80px;
+        width: 80px;
+        max-height: 80px;
+        max-width: 80px;
+        margin: 0 !important;
+    }
+    .c-icon-block p {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0 !important;
+        color: #787878;
+    }
+    .c-icon-block h3 {
+        font-size: 20px;
+        text-transform: capitalize;
+        margin: 0 0 0 10px !important;
+    }
+    /* Career view ends */
+    /* E-commerce view starts */
+    .ard {
+        margin-bottom: 10px !important;
+    }
+    .choose-c {
+        margin-bottom: 15px !important;
+    }
+    /* E-commerce view ends */
+    /*Navbar*/
+    .navbar-default .navbar-collapse {
+        border-color: #666;
+        height: 100% !important;
+    }
+    /*Navbar Ends*/
+}
+
+
+/* landscape view starts*/
+
+@media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 575px) {}
+
+@media screen and (orientation: landscape) and (min-device-width: 575px) and (max-device-width: 768px) {}
+
+@media screen and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1080px) {}
+
+
+/* landscape view ends*/
