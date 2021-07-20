@@ -1,0 +1,7 @@
+.logo-wrapper {margin-bottom: 20px;
+    background-color: #eaecef;
+    padding: 15px;
+}
+.logo-wrapper:hover {
+    background-color: #f2f4f7;
+}

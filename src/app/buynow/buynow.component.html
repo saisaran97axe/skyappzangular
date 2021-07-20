@@ -1,0 +1,126 @@
+<div class="masthead masthead-inner aboutus">
+    <div id="particles-js"></div>
+    <div class="google-glass">
+        <div class="cyclebanner">
+            <div class="container">
+
+                <map name="req-quote" class="banner-quote">
+                    <area shape="rect" coords="0,310,360,430" href="javascript:;" title="Request Quote" rel="nofollow"
+                        alt="Request Quote" />
+                </map>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="websec home-sec mb-5">
+
+    <div class="container">
+        <div class="row-fluid mb-5">
+
+            <div class="col-md-8 cform-wrap col-md-offset-3 col-sm-10 col-xs-12">
+                <h1 class="font-x-large mr-t" style="text-align: center;">Send Enquiry Now</h1>
+                <mdb-card style="margin: auto;">
+                    <mdb-card-body class="px-lg-5 pt-0 mr-t">
+                        <form class="example-form" action="contact.php" method="POST">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Name</mat-label>
+                                <input type="text" name="name" matInput placeholder="" [formControl]="nameFormControl" value="">
+                                <mat-error *ngIf="nameFormControl.hasError('required')">
+                                    Name is <strong>required</strong>
+                                </mat-error>
+                            </mat-form-field>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Phone Number</mat-label>
+                                <input type="text" name="number" matInput placeholder="" [formControl]="phoneFormControl" value="">
+                                <mat-error *ngIf="phoneFormControl.hasError('required')">
+                                    Phone Number is <strong>required</strong>
+                                </mat-error>
+                            </mat-form-field>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Email</mat-label>
+                                <input type="email" name="email" matInput [formControl]="emailFormControl" placeholder="">
+                                <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                                    Please enter a valid email address
+                                </mat-error>
+                                <mat-error *ngIf="emailFormControl.hasError('required')">
+                                    Email is <strong>required</strong>
+                                </mat-error>
+                            </mat-form-field>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Location</mat-label>
+                                <input type="text" name="number" matInput placeholder="" [formControl]="locationFormControl" value="">
+                                <mat-error *ngIf="locationFormControl.hasError('required')">
+                                    Location Number is <strong>required</strong>
+                                </mat-error>
+                            </mat-form-field>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Country</mat-label>
+                                <mat-select>
+                                    <mat-option value="one">India</mat-option>
+                                    <mat-option value="two">USA</mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Skype ID</mat-label>
+                                <input type="text" name="number" matInput placeholder="" value="">
+
+                            </mat-form-field>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Business Type</mat-label>
+                                <mat-select>
+                                    <mat-option value="one">Start Up</mat-option>
+                                    <mat-option value="two">Enterprises</mat-option>
+                                    <mat-option value="three">Other</mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Product Details</mat-label>
+                                <mat-select>
+                                    <mat-option value="one">Website Design</mat-option>
+                                    <mat-option value="two">Website Development</mat-option>
+                                    <mat-option value="three">E-Commerce Mobile App</mat-option>
+                                    <mat-option value="one">E-Commerce Website</mat-option>
+                                    <mat-option value="two">Android Application</mat-option>
+                                    <mat-option value="three">IOS Application</mat-option>
+                                    <mat-option value="one">Digital Marketing</mat-option>
+                                    <mat-option value="two">IT Support</mat-option>
+                                    <mat-option value="three">Renewal</mat-option>
+                                    <mat-option value="three">Other</mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Amount</mat-label>
+                                <input type="text" name="name" matInput placeholder="" [formControl]="amountFormControl" value="">
+                                <mat-error *ngIf="amountFormControl.hasError('required')">
+                                    Amount is <strong>required</strong>
+                                </mat-error>
+                            </mat-form-field>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Referred by</mat-label>
+                                <input type="text" name="name" matInput placeholder="" [formControl]="referredByFormControl" value="">
+                                <mat-error *ngIf="nameFormControl.hasError('required')">
+                                    Referred by is <strong>required</strong>
+                                </mat-error>
+                            </mat-form-field>
+                            <div class="site-btn form-bottom">
+                                <a href="" class="btn btn-1">
+                                    <span class="txt">Submit Your Query</span>
+                                    <span class="round"><i class="fa fa-chevron-right"></i></span>
+                                </a>
+                            </div>
+                        </form>
+
+                    </mdb-card-body>
+
+                </mdb-card>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>

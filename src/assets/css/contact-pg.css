@@ -1,0 +1,37 @@
+.cta-ico { width: 52px; float: left; background-image: url(../images/sprite-common.png); background-repeat: no-repeat; height: 70px; }
+.cta-text { float: right; max-width: 168px; text-align: left; }
+.cta-text h6 { color: #5f6c75; font-size: 17px; font-weight: 600; margin: 0 0 0 0; }
+.cta-text p { color: #5f6c75; font-size: 12px; line-height: 14px; margin-bottom: 0; }
+span.num { color: #cd2927; font-sizE: 21px; font-weight: 600; }
+.call-ico { background-position: -730px -59px; }
+.chat-ico { background-position: -730px -183px; }
+.email-ico { background-position: -731px -384px; }
+.contactform { background: url(../images/contactformbg.png) no-repeat center; margin-top:30px;}
+.cform-wrap { background: #fff;  border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+#contactform { padding: 20px; }
+#contactform .field, #contactform .fieldset { margin: 0 auto; }
+#contactform input[type="text"], #contactform input[type="password"], #contactform textarea, #contactform input[disabled] { width: 100%; min-height:43px; padding: 1.8%; font-size: 16px; color: #5a5959; border: 1px solid #f1e4e4; box-shadow: none; background:#eee; border:none;border-radius:20px; padding-left:20px;
+}
+
+#contactform input[type="text"]:foucs, #contactform input[type="password"], #contactform textarea, #contactform input[disabled] 
+{
+    outline:none;border:none;
+    }
+#contactform select { width: 100%; height: 43px; padding-left: 32px;  background: #e5e5e5; box-shadow: none; border:none; border-radius:20px;
+}
+#contactform .code { width: 16%; }
+#contactform .phone { width: 80%; float: right }
+#contactform .field.pc span { top: 15px; }
+#contactform::-webkit-input-placeholder, #contactform:-moz-placeholder, #contactform::-moz-placeholder, #contactform:-ms-input-placeholder {
+color:#5a5959;
+font-size:16px;
+}
+#contactform input[disabled] { padding: 9.8% 0 7.8% 10%; }
+#contactform input[type="submit"] { background: #cd2927; color: #fff; border: none; outline: none; font-size: 18px; font-weight: bold; padding: 5px 18px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+#contactform p { color: #404040; font-size: 16px; margin-bottom: 10px; }
+#contactform p strong { color: #ff2c16; }
+#contactform .form-group span
+{
+    position:absolute;
+    right:30px;
+    }
